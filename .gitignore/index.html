@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <title>Toggle Change Background Color</title>	
+       <style>.red{background: #FF0000; color :yellow;}
+			.orange{background: #FF7F00; color: blue;}
+			.yellow{background: #FFFF00; color :green;}
+			.green{background: #00FF00; color: blue;}
+			.blue{background: #0000FF; color :yellow;}
+			.indigo{background: #4B0082; color :green;}
+			.violet{background: #9400D3; color: blue;}
+    </style>
+    <script>
+        function red(){body.className='red';}
+        function orange(){body.className='orange';}
+		function yellow(){body.className='yellow';}
+        function green(){body.className='green';}
+		function blue(){body.className='blue';}
+        function indigo(){body.className='indigo';}
+		function violet(){body.className='violet';}
+    </script>
+</head>
+<body id="body">
+        <div class="container">
+        <br>
+        <br>    
+
+<h1 class="text-center">
+<div>
+<font color="#ff0000">T</font><font color="#ff7f00">H</font><font color="#ffbf00">E</font><font color="#ffff00"> 
+</font><font color="#00ff00">R</font><font color="#00ffff">A</font><font color="#0080ff">I</font><font color="#0000ff">N</font><font color="#8b00ff">B</font><font color="#ff0000">O</font><font color="#ff4000">W</font>
+<font color="#ff7f00"> </font><font color="#fff00">C</font><font color="#00ff00">O</font><font color="#00ff80">L</font><font color="#00ffff">O</font><font color="#0000ff">R</font>
+<font color="#8b00ff"> </font><font color="#c50080">S</font><font color="#ff0000">E</font><font color="#ff7f00">Q</font><font color="#ffff00">U</font><font color="#80ff00">E</font><font color="#00ff00">N</font><font color="#00ffff">C</font><font color="#0000ff">E</font></div></h1>
+        <br>
+        <br>
+        <h3 class="text-center">Choose On Option Menu To Change Background Color</h3>
+        <br> 
+        <br><center> 
+                <label><input type="radio" onclick="red()" name="red" value="red"/>RED</label>
+                <label><input type="radio" onclick="orange()" name="orange" value="orange"/>ORANGE</label>
+				<label><input type="radio" onclick="yellow()" name="yellow" value="yellow"/>YELLOW</label>
+                <label><input type="radio" onclick="green()" name="green" value="green"/>GREEN</label>
+				<label><input type="radio" onclick="blue()" name="blue" value="blue"/>BLUE</label>
+                <label><input type="radio" onclick="indigo()" name="indigo" value="indigo"/>INDIGO</label>
+				<label><input type="radio" onclick="violet()" name="violet" value="violet"/>VIOLET</label>                			
+            </center><br>
+        </br>
+			<div style="background-color:#FF0000"><h1 style="color:white">RED</h1></div>
+			<div style="background-color:#FF7F00"><h1 style="color:white">ORANGE</h1></div>
+			<div style="background-color:#FFFF00"><h1 style="color:white">YELLOW</h1></div>
+			<div style="background-color:#00FF00"><h1 style="color:white">GREEN</h1></div>
+			<div style="background-color:#0000FF"><h1 style="color:white">BLUE</h1></div>
+			<div style="background-color:#4B0082"><h1 style="color:white">INDIGO</h1></div>
+			<div style="background-color:#9400D3"><h1 style="color:white">VIOLET</h1></div>	
+        <br>
+        </div>
+        <footer>
+            <center>
+                    <h3><p><marquee>Programmer by @shareprogramming</marquee></p><h3>
+            </center>
+        </footer>
+</body>
+</html>
